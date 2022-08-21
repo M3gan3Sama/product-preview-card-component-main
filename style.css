@@ -60,18 +60,18 @@ main > section {
   padding: 32px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 h1,
 h2 {
-  font-family: var(--title-font);
-  font-weight: 700;
+  font-family: "Fraunces", serif;
+  /* font-weight: 700; */
 }
 
 h1 {
   color: var(--very-dar-blue);
   line-height: 2.3rem;
-  margin-bottom: 28px;
   font-size: 2.5rem;
 }
 
@@ -87,7 +87,7 @@ strong {
 
 p {
   line-height: 1.6rem;
-  margin-bottom: 31px;
+  /* margin-bottom: 31px; */
 }
 
 strong {
@@ -98,19 +98,19 @@ strong {
 .preview {
   letter-spacing: 4px;
   font-size: 0.9rem;
-  margin-bottom: 21px;
+  /* margin-bottom: 21px; */
 }
 
 .price {
   display: flex;
   align-items: center;
   gap: 1.2rem;
-  margin-bottom: 28px;
+  /* margin-bottom: 28px; */
 }
 
 .price > p {
   text-decoration: line-through;
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
 }
 
 button {
