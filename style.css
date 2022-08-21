@@ -149,7 +149,6 @@ footer {
   transform: translateX(-50%);
   white-space: nowrap;
   color: var(--dark-grayish-blue);
-  margin-bottom: 5px;
 }
 
 footer a,
@@ -204,15 +203,9 @@ footer a:active {
     margin-bottom: 16px;
   }
 
-  footer {
-    position: inherit;
-    left: 0;
-    transform: none;
-    margin-bottom: 0;
-  }
-
   footer a,
   footer p {
     font-size: 10px;
+    margin-bottom: 0;
   }
 }
