@@ -73,6 +73,7 @@ h1 {
   color: var(--very-dar-blue);
   line-height: 2.3rem;
   margin-bottom: 28px;
+  padding-right: 2rem;
 }
 
 h2 {
