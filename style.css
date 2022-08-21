@@ -188,27 +188,9 @@ footer a:active {
     padding: 24px;
   }
 
-  h1 {
-    padding-right: 0;
-    margin-bottom: 15px;
-  }
-
-  p {
-    margin-bottom: 21px;
-  }
-
-  .preview {
-    margin-bottom: 1rem;
-  }
-
-  .price {
-    margin-bottom: 16px;
-  }
-
   footer a,
   footer p {
     font-size: 10px;
-    margin-bottom: 0;
   }
 }
 
