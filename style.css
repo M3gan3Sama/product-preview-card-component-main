@@ -209,3 +209,27 @@ footer a:active {
     margin-bottom: 0;
   }
 }
+
+@media (max-width: 320px) {
+  body {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1rem;
+    gap: 1rem;
+  }
+  main {
+    max-width: 95vw;
+    height: auto;
+    margin: 1rem auto 0 auto;
+  }
+
+  h1,
+  h2 {
+    font-size: 2rem;
+  }
+
+  footer {
+    position: relative;
+    left: 0;
+    transform: none;
+  }
+}
