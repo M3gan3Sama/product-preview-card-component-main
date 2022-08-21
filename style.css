@@ -133,8 +133,13 @@ button:active {
   background-color: hsl(156, 42%, 18%);
 }
 
-button > img {
-  display: block;
+.bg-img {
+  background: url(./images/image-product-desktop.jpg);
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer {
@@ -170,6 +175,13 @@ footer a:active {
     height: 611px;
     grid-template-columns: 1fr;
     grid-template-rows: 240px 1fr;
+  }
+
+  .bg-img {
+    background: url(./images/image-product-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   main > section {
